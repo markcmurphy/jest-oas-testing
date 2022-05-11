@@ -1,0 +1,29 @@
+{
+  "name": "jest-oas-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markcmurphy/jest-oas-testing.git"
+  },
+  "author": "Mark Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markcmurphy/jest-oas-testing/issues"
+  },
+  "homepage": "https://github.com/markcmurphy/jest-oas-testing#readme",
+  "devDependencies": {
+    "jest-openapi": "^0.14.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "browserslist": "^4.20.3",
+    "dotenv": "^16.0.1"
+  }
+}
